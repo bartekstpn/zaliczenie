@@ -4,16 +4,7 @@
 
 3. zwrotka2.txt
 
-4. I weź tą pracę odstaw
-Zapalmy papieroska
-Niech butelka nie ma końca
-Ze mną będzie zachód słońca
-I California
-Hej, hej, hej, hej
-I California
-Hej, hej, hej, hej
-I California
-Hej, hej, hej, hej
+4. refren2.txt
 
 5. Na wodzie widzę słońce, jeszcze pięć minut stary
 No bo jeszcze nie dorosłem
