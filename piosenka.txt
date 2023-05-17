@@ -2,22 +2,7 @@
 
 2. refren1.txt
 
-3. Szamę na wynos biorę
-Mówią latynos, chore
-Mi tylko wino polej
-Lepiej niech nie widzą co jest
-Ja miękkie wyro wolę
-Jim Beam, nie Ciroc, Moet
-I chuj z tą ździrą ziomek
-Zaraz ci sprowadzę nowe
-Kasa się wydaje
-I nawet mi nie szkoda
-Tracę zdrowie, no bo palę
-I nawet mi nie szkoda, ej
-Przepiłem zegarek
-I nawet mi nie szkoda, wiesz
-Przepiłem co miałem
-I zgadnij kurwa co
+3. zwrotka2.txt
 
 4. I weź tą pracę odstaw
 Zapalmy papieroska
