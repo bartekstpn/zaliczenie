@@ -1,0 +1,477 @@
+$ git log -p piosenka.txt
+commit fa172f863252c17b06b64f9e6a52b867b6ae8700 (HEAD -> master)
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 13:29:10 2023 +0200
+
+    zastąpiono refren2.txt -> refren1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 971bc76..566e8c1 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,6 +4,6 @@
+
+ 3. zwrotka2.txt
+
+-4. refren2.txt
++4. refren1.txt
+
+ 5. zwrotka3.txt
+\ No newline at end of file
+
+commit 6f22b350d2346ce98a6b5a585dc17803458871d7
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 12:32:07 2023 +0200
+
+    zastąpiono trzecią zwrotke nazwą pliku zwrotka3.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index eff4ec1..971bc76 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -6,9 +6,4 @@
+
+ 4. refren2.txt
+
+-5. Na wodzie widzę słońce, jeszcze pięć minut stary
+-No bo jeszcze nie dorosłem
+-Chcę pić piwo na plaży, ej
+-Na wodzie widzę słońce, jeszcze pięć minut stary
+-No bo jeszcze nie dorosłem
+-Chcę pić piwo na plaży
+\ No newline at end of file
++5. zwrotka3.txt
+\ No newline at end of file
+
+commit 2712c6063ce808d5a347a38d8c029596f270a786
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 12:26:48 2023 +0200
+
+    zastąpiono drugi refren nazwą pliku refren2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 541753b..eff4ec1 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,16 +4,7 @@
+
+ 3. zwrotka2.txt
+
+-4. I weź tą pracę odstaw
+-Zapalmy papieroska
+-Niech butelka nie ma końca
+-Ze mną będzie zachód słońca
+-I California
+-Hej, hej, hej, hej
+-I California
+-Hej, hej, hej, hej
+-I California
+-Hej, hej, hej, hej
++4. refren2.txt
+
+ 5. Na wodzie widzę słońce, jeszcze pięć minut stary
+ No bo jeszcze nie dorosłem
+
+commit 7d0d328932d911e09b23979e665793a4b72e9bf6
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 12:22:04 2023 +0200
+
+    zastąpiono drugą zwrotke nazwą pliku zwrotka2.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 54d80ba..541753b 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,22 +2,7 @@
+
+ 2. refren1.txt
+
+-3. Szamę na wynos biorę
+-Mówią latynos, chore
+-Mi tylko wino polej
+-Lepiej niech nie widzą co jest
+-Ja miękkie wyro wolę
+-Jim Beam, nie Ciroc, Moet
+-I chuj z tą ździrą ziomek
+-Zaraz ci sprowadzę nowe
+-Kasa się wydaje
+-I nawet mi nie szkoda
+-Tracę zdrowie, no bo palę
+-I nawet mi nie szkoda, ej
+-Przepiłem zegarek
+-I nawet mi nie szkoda, wiesz
+-Przepiłem co miałem
+-I zgadnij kurwa co
++3. zwrotka2.txt
+
+ 4. I weź tą pracę odstaw
+ Zapalmy papieroska
+
+commit ce6df675abbeccc80b15a0e891e802923c559c4a
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 12:17:15 2023 +0200
+
+    zastąpiono pierwszy refren nazwą pliku refren1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 273d8ac..54d80ba 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,15 +1,6 @@
+ 1. zwrotka1.txt
+
+-2. I weź tą pracę odstaw
+-Zapalmy papieroska
+-Niech butelka nie ma końca
+-Ze mną będzie zachód słońca
+-I California
+-Hej, hej, hej, hej
+-I California
+-Hej, hej, hej, hej
+-I California
+-Hej, hej, hej, hej
++2. refren1.txt
+
+ 3. Szamę na wynos biorę
+ Mówią latynos, chore
+
+commit 137045256c978e550a5c494de42944eb819a8587
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 12:12:18 2023 +0200
+
+    zastąpiono pierwszą zwrotke nazwą pliku zwrotka1.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 7efed7c..273d8ac 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,24 +1,4 @@
+-1. I weź tą pracę odstaw
+-Zapalmy papieroska
+-Niech butelka nie ma końca
+-Ze mną będzie zachód słońca
+-I California
+-Kocham to jak się dłużą dni
+-I jest cholernie sucho w pył
+-I wszyscy ze mną muszą pić
+-To jak dziewczyny, budzą by
+-Ruszyć gdzieś nad wodę, hej
+-Jechać samochodem
+-Pierdol nawigację bracie
+-Przecież świetnie znam już drogę
+-Ej, hejejejejej, energoli pełen karton, ja przez miasto 160
+-Hejejejejej, chuj w mandaty, ich nie płacę, zdjęcie przyślą mi za miesiąc
+-Z radia Guns N Roses
+-W szyberdachu czuje wiatr
+-Jadę po Californie, bo dziś będzie American Pie
+-Chcę dziś dobrze płynąć jakbym płynął drogim statkiem
+-Chuj w te rzeczy materialne
+-Bo to pamięć jest na zawsze, wiesz
++1. zwrotka1.txt
+
+ 2. I weź tą pracę odstaw
+ Zapalmy papieroska
+
+commit 0c8c99f6d312014400e59ada87cfd0e04e578a9c
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 11:55:05 2023 +0200
+
+    rozdzielono tekst na zwrotki i refreny w piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 7925913..7efed7c 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,4 +1,4 @@
+-I weź tą pracę odstaw
++1. I weź tą pracę odstaw
+ Zapalmy papieroska
+ Niech butelka nie ma końca
+ Ze mną będzie zachód słońca
+@@ -19,7 +19,8 @@ Jadę po Californie, bo dziś będzie American Pie
+ Chcę dziś dobrze płynąć jakbym płynął drogim statkiem
+ Chuj w te rzeczy materialne
+ Bo to pamięć jest na zawsze, wiesz
+-I weź tą pracę odstaw
++
++2. I weź tą pracę odstaw
+ Zapalmy papieroska
+ Niech butelka nie ma końca
+ Ze mną będzie zachód słońca
+@@ -29,7 +30,8 @@ I California
+ Hej, hej, hej, hej
+ I California
+ Hej, hej, hej, hej
+-Szamę na wynos biorę
++
++3. Szamę na wynos biorę
+ Mówią latynos, chore
+ Mi tylko wino polej
+ Lepiej niech nie widzą co jest
+@@ -45,7 +47,8 @@ Przepiłem zegarek
+ I nawet mi nie szkoda, wiesz
+ Przepiłem co miałem
+ I zgadnij kurwa co
+-I weź tą pracę odstaw
++
++4. I weź tą pracę odstaw
+ Zapalmy papieroska
+ Niech butelka nie ma końca
+ Ze mną będzie zachód słońca
+@@ -55,7 +58,8 @@ I California
+ Hej, hej, hej, hej
+ I California
+ Hej, hej, hej, hej
+-Na wodzie widzę słońce, jeszcze pięć minut stary
++
++5. Na wodzie widzę słońce, jeszcze pięć minut stary
+ No bo jeszcze nie dorosłem
+ Chcę pić piwo na plaży, ej
+ Na wodzie widzę słońce, jeszcze pięć minut stary
+
+commit 20008a972c23d95ff571697141ce6ec20570e838
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 11:50:48 2023 +0200
+
+    dodano tekst do piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..7925913
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,63 @@
++I weź tą pracę odstaw
++Zapalmy papieroska
++Niech butelka nie ma końca
++Ze mną będzie zachód słońca
++I California
++Kocham to jak się dłużą dni
++I jest cholernie sucho w pył
++I wszyscy ze mną muszą pić
++To jak dziewczyny, budzą by
++Ruszyć gdzieś nad wodę, hej
++Jechać samochodem
++Pierdol nawigację bracie
++Przecież świetnie znam już drogę
++Ej, hejejejejej, energoli pełen karton, ja przez miasto 160
++Hejejejejej, chuj w mandaty, ich nie płacę, zdjęcie przyślą mi za miesiąc
++Z radia Guns N Roses
++W szyberdachu czuje wiatr
++Jadę po Californie, bo dziś będzie American Pie
++Chcę dziś dobrze płynąć jakbym płynął drogim statkiem
++Chuj w te rzeczy materialne
++Bo to pamięć jest na zawsze, wiesz
++I weź tą pracę odstaw
++Zapalmy papieroska
++Niech butelka nie ma końca
++Ze mną będzie zachód słońca
++I California
++Hej, hej, hej, hej
++I California
++Hej, hej, hej, hej
++I California
++Hej, hej, hej, hej
++Szamę na wynos biorę
++Mówią latynos, chore
++Mi tylko wino polej
++Lepiej niech nie widzą co jest
++Ja miękkie wyro wolę
++Jim Beam, nie Ciroc, Moet
++I chuj z tą ździrą ziomek
++Zaraz ci sprowadzę nowe
++Kasa się wydaje
++I nawet mi nie szkoda
++Tracę zdrowie, no bo palę
++I nawet mi nie szkoda, ej
++Przepiłem zegarek
++I nawet mi nie szkoda, wiesz
++Przepiłem co miałem
++I zgadnij kurwa co
++I weź tą pracę odstaw
++Zapalmy papieroska
++Niech butelka nie ma końca
++Ze mną będzie zachód słońca
++I California
++Hej, hej, hej, hej
++I California
++Hej, hej, hej, hej
++I California
++Hej, hej, hej, hej
++Na wodzie widzę słońce, jeszcze pięć minut stary
++No bo jeszcze nie dorosłem
++Chcę pić piwo na plaży, ej
++Na wodzie widzę słońce, jeszcze pięć minut stary
++No bo jeszcze nie dorosłem
++Chcę pić piwo na plaży
+
+
+$ git log -p zwrotka1.txt
+commit 137045256c978e550a5c494de42944eb819a8587
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 12:12:18 2023 +0200
+
+    zastąpiono pierwszą zwrotke nazwą pliku zwrotka1.txt
+
+diff --git a/zwrotka1.txt b/zwrotka1.txt
+index e69de29..3f6d216 100644
+--- a/zwrotka1.txt
++++ b/zwrotka1.txt
+@@ -0,0 +1,21 @@
++1. I weź tą pracę odstaw
++Zapalmy papieroska
++Niech butelka nie ma końca
++Ze mną będzie zachód słońca
++I California
++Kocham to jak się dłużą dni
++I jest cholernie sucho w pył
++I wszyscy ze mną muszą pić
++To jak dziewczyny, budzą by
++Ruszyć gdzieś nad wodę, hej
++Jechać samochodem
++Pierdol nawigację bracie
++Przecież świetnie znam już drogę
++Ej, hejejejejej, energoli pełen karton, ja przez miasto 160
++Hejejejejej, chuj w mandaty, ich nie płacę, zdjęcie przyślą mi za miesiąc
++Z radia Guns N Roses
++W szyberdachu czuje wiatr
++Jadę po Californie, bo dziś będzie American Pie
++Chcę dziś dobrze płynąć jakbym płynął drogim statkiem
++Chuj w te rzeczy materialne
++Bo to pamięć jest na zawsze, wiesz
+\ No newline at end of file
+
+commit 61ebc6fc85008dbd571687775f77c4f08cf9f702
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 11:59:02 2023 +0200
+
+    przeniesiono zwrotkę pierwszą do zwrotka1.txt
+
+diff --git a/zwrotka1.txt b/zwrotka1.txt
+new file mode 100644
+index 0000000..e69de29
+
+
+
+
+
+
+
+$ git log -p zwrotka2.txt
+commit 3240530735ca020a3ce5387a67d5f76c7a44cbda
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 12:20:18 2023 +0200
+
+    przenisiono drugą zwrotke do zwrotka2.txt
+
+diff --git a/zwrotka2.txt b/zwrotka2.txt
+new file mode 100644
+index 0000000..37f582a
+--- /dev/null
++++ b/zwrotka2.txt
+@@ -0,0 +1,16 @@
++3. Szamę na wynos biorę
++Mówią latynos, chore
++Mi tylko wino polej
++Lepiej niech nie widzą co jest
++Ja miękkie wyro wolę
++Jim Beam, nie Ciroc, Moet
++I chuj z tą ździrą ziomek
++Zaraz ci sprowadzę nowe
++Kasa się wydaje
++I nawet mi nie szkoda
++Tracę zdrowie, no bo palę
++I nawet mi nie szkoda, ej
++Przepiłem zegarek
++I nawet mi nie szkoda, wiesz
++Przepiłem co miałem
++I zgadnij kurwa co
+\ No newline at end of file
+
+
+
+
+
+
+commit 54444d31c6c374b0ca6e28d87e03197042f0cfe2
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 12:29:15 2023 +0200
+
+    przeniesiono trzecią zwrotke do zwrotka3.txt
+
+diff --git a/zwrotka3.txt b/zwrotka3.txt
+new file mode 100644
+index 0000000..e69de29
+
+
+
+
+$ git log -p refren1.txt
+commit 0cd543a8a0af9240b0de909df7cb08bf398bb8b7
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 12:38:09 2023 +0200
+
+    Revert "usunięto pierwszą linię w refren1.txt i refren2.txt"
+
+    This reverts commit 7ec0fa962ca2bd770758593346bd2a5d5e5f2cb8.
+
+diff --git a/refren1.txt b/refren1.txt
+index a351cf7..f1eff9e 100644
+--- a/refren1.txt
++++ b/refren1.txt
+@@ -1,4 +1,4 @@
+-2.
++2. I weź tą pracę odstaw
+ Zapalmy papieroska
+ Niech butelka nie ma końca
+ Ze mną będzie zachód słońca
+
+commit 7ec0fa962ca2bd770758593346bd2a5d5e5f2cb8
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 12:35:01 2023 +0200
+
+    usunięto pierwszą linię w refren1.txt i refren2.txt
+
+diff --git a/refren1.txt b/refren1.txt
+index f1eff9e..a351cf7 100644
+--- a/refren1.txt
++++ b/refren1.txt
+@@ -1,4 +1,4 @@
+-2. I weź tą pracę odstaw
++2.
+ Zapalmy papieroska
+ Niech butelka nie ma końca
+ Ze mną będzie zachód słońca
+
+commit 304b9bc1b494f4cf797affc285322662b596c535
+Author: Bartek Stępień <bartekstpn@gmail.com>
+Date:   Wed May 17 12:15:50 2023 +0200
+
+    przeniesiono refren 1 do refren1.txt
+
+diff --git a/refren1.txt b/refren1.txt
+new file mode 100644
+index 0000000..f1eff9e
+--- /dev/null
++++ b/refren1.txt
+@@ -0,0 +1,10 @@
++2. I weź tą pracę odstaw
++Zapalmy papieroska
++Niech butelka nie ma końca
++Ze mną będzie zachód słońca
++I California
++Hej, hej, hej, hej
++I California
++Hej, hej, hej, hej
++I California
++Hej, hej, hej, hej
+\ No newline at end of file
+
+
+
+$ git log -p refren2.txt
+fatal: ambiguous argument 'refren2.txt': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+
